@@ -1,0 +1,38 @@
+{
+  "name": "array-pairer",
+  "version": "1.0.0",
+  "description": "Random pair generator of the items in an array",
+  "module": "array-pairer.js",
+  "scripts": {
+    "test": "npm run lint && jest",
+    "lint": "eslint '**/*.js' --ignore-pattern node_modules/"
+  },
+  "keywords": [
+    "combinatorics",
+    "pairs",
+    "array"
+  ],
+  "author": "Daniel Wedin",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-plugin-jest": "^22.0.0",
+    "jest": "^23.6.0"
+  },
+  "prettier": {
+    "printWidth": 140,
+    "trailingComma": "es5",
+    "arrowParens": "avoid",
+    "overrides": [
+      {
+        "files": ".{prettier,babel,stylelint,eslint}rc",
+        "options": {
+          "parser": "json"
+        }
+      }
+    ]
+  },
+  "jest": {
+    "collectCoverage": true
+  }
+}
