@@ -4,7 +4,7 @@
   "description": "Random pair generator of the items in an array",
   "module": "array-pairer.js",
   "scripts": {
-    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
+    "coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls",
     "test": "npm run lint && jest",
     "lint": "eslint '**/*.js' --ignore-pattern node_modules/"
   },
